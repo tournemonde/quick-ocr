@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "quick-ocr"
+version = "0.1.0"
+description = "OCR and LLM-based question answering system"
+authors = ["User"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+pytesseract = "^0.3.13"
+pillow = "^11.2.1"
+openai = "^1.83.0"
+click = "^8.2.1"
+python-dotenv = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
