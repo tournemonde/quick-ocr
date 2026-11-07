@@ -2,8 +2,11 @@
 name = "quick-ocr"
 version = "0.1.0"
 description = "OCR and LLM-based question answering system"
-authors = ["User"]
+authors = ["tournemonde"]
 readme = "README.md"
+
+[tool.poetry.scripts]
+quick-ocr = "quick_ocr.main:main"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"

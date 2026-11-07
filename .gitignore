@@ -8,3 +8,8 @@ __pycache__
 *.pyw
 *.pyz
 .cursor/
+# Local OCR samples (not for publication)
+quick_ocr/tests/
+# Stray local artifacts
+*.pem
+*.key
